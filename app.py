@@ -16,9 +16,9 @@ def page():
 # Flask App 가동 (run)
 if __name__ == "__main__":
     app.run(debug=True)   
-    
+     
 # 루프백,  i, http port 검색해보기
 # http - 80
 # https - 443
 # blueprint 공부
-# CRUD
+# CRUD (Create, Read, Update, Delete)
