@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+Title - Sign in
+{% endblock %}
+
+{% block description %}
+<h1>Description - Sign in</h1>
+
+{% if user %}
+    {{ "Dear. " + user }}! 
+{% elif not user %}
+    Dear. Anonymous!
+{% else %}
+    "Hacker"
+{%endif %}
+
+<script src="{{url_for('static', filename= 'index.js')}}"></script>
+
+<br/>Have a nice day!
+{% endblock %}

@@ -22,7 +22,8 @@
 # https - 443
 # blueprint 공부
 # CRUD (Create, Read, Update, Delete)
-# __name__ 공부하기
+# __name__ 공부하기 / 매직변수
 # globals() 함수
 # python decorator 문법
+# blueprint 공부 
 

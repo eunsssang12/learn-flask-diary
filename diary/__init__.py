@@ -11,5 +11,6 @@ def create_app():
     
     # Apply BluePrint
     app.register_blueprint(views, url_prefix='/')
+    # app.register_blueprint(views, url_prefix='/test')
     app.register_blueprint(auth,url_prefix='/')
     return app
